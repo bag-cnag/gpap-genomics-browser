@@ -1,0 +1,43 @@
+This program receives a file request from the GPAP Genomics Browser and returns 
+genomic alignments from the EGA Archive if the user has the necessary permissions in the RD-Connect GPPA
+
+
+
+# method access as main endpoint to obtain genomics alignemnts data in RD-Connect GPAP
+function getGenomicAlignments(request){
+
+	parse request and extract fileName, chromosome, and position
+	
+	verify user permissions in the RD-Connect GPAP
+
+	if USER IS AUTHORIZED:
+		response = getReads(filename, chromosome, position)
+		return response
+	else: 
+	   return ERROR;
+
+
+}
+
+
+
+# method that returns the genomic alignments by performing a request to EGA
+function getReads(filename, chromosome, position):
+
+	request personal token from EGA with authorized credentials for RD-Connect GPAP
+	
+	IF TOKEN is valid:
+		find filename in the list of archived genomics alignements files in EGA
+		IF filename has been FOUND:
+			download file from EGA
+			IF DOWNLOAD is successful:
+				send response to client as a octet/stream content-type response
+			ELSE
+				return ERROR
+		ELSE:
+		        return ERROR	
+
+	else:
+	   return ERROR;
+
+
