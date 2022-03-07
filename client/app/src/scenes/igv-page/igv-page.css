@@ -1,0 +1,17 @@
+
+
+
+
+
+
+.content {
+    float: left;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+
+.error_msg{
+    font-size: 30px;
+    margin: 4%;
+}

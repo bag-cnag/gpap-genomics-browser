@@ -1,0 +1,13 @@
+
+
+
+
+
+.igv-div{
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 8px;
+    border: 1px solid lightgray;
+}
