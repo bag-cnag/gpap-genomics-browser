@@ -9,8 +9,8 @@ The client application is a standalone React Application with an embedded versio
 
 Sources:
 
-"React - A JavaScript library for building user interfaces". React. Retrieved 30 March 2021
+- "React - A JavaScript library for building user interfaces"
 
-KeyCloak, https://www.keycloak.org/, Retrieved 30 March 2021
+- KeyCloak, https://www.keycloak.org/, Retrieved 30 March 2021
 
-Robinson James T. , Thorvaldsdóttir Helga , Turner Douglass , Mesirov Jill P. . igv.js: an embeddable JavaScript implementation of the Integrative Genomics Viewer (IGV). bioRxiv 2020.05.03075499.
+- Robinson James T. , Thorvaldsdóttir Helga , Turner Douglass , Mesirov Jill P. . igv.js: an embeddable JavaScript implementation of the Integrative Genomics Viewer (IGV). bioRxiv 2020.05.03075499.
